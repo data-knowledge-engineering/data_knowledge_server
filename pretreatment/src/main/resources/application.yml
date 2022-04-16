@@ -1,0 +1,9 @@
+server:
+  port: 8001
+spring:
+  # Mysql环境配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://server.zstuleo.top:3306/deal_db?serverTimezone=GMT%2B8
+    username: root
+    password: 654android321
