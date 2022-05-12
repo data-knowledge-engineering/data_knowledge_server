@@ -1,9 +1,11 @@
 package com.seven.exhibition.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 
 @Data
+@TableName("deal_data_station_equ")
 public class StationEqu {
 
     private String station_name;//线路站点
