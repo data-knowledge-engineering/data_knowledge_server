@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seven.exhibition.mapper.LineStationMapper">
+
+
+    <!--  查询站点-设备号-交易类型  -->
+    <select id="selectLineStation" resultType="java.lang.String">
+        select station from deal_data_line_station where line_name=#{lineName}
+    </select>
+
+</mapper>

@@ -29,7 +29,7 @@ public class StationEquController {
     /*查询某个站点的 设备数
      * station-->equ_no, deal_type
      * */
-    @RequestMapping("/{sname}/inf")
+    @RequestMapping("/{sname}")
     public Object findOneStation(@PathVariable("sname") String sname) {
 
 
